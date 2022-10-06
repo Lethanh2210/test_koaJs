@@ -1,0 +1,26 @@
+{
+  "name": "api-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/server.js",
+  "scripts": {
+    "dev": "nodemon lib/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "production": "babel src --out-dir lib --copy-files --include-dotfiles",
+    "development": "babel src --out-dir lib --copy-files --source-maps --include-dotfiles",
+    "watch": "babel src --out-dir lib --copy-files --source-maps --include-dotfiles --watch --verbose"
+  },
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "yup": "^0.32.9",
+    "faker": "^5.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0"
+  }
+}
