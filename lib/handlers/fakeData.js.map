@@ -1,0 +1,1 @@
+{"version":3,"file":"fakeData.js","names":[],"sources":["../../src/handlers/fakeData.js"],"sourcesContent":["import {\r\n    createDatabase as createProducts\r\n} from \"../database/faker.js\";\r\n\r\n\r\n\r\n"],"mappings":";;AAAA"}

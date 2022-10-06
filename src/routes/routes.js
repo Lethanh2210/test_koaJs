@@ -1,5 +1,6 @@
 import Router from 'koa-router';
 import bookRouter from './book.routes.js';
+import fakeDataRouter from "./fakeData.router";
 
 // Prefix all routes with /books
 const router = new Router({
@@ -8,5 +9,6 @@ const router = new Router({
 
 // Routes will go here
 router.use(bookRouter.routes());
+router.use(fakeDataRouter.routes());
 
 export default router;
